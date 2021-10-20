@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    padding: 50px 100px;
+    background: linear-gradient(rgb(0, 0, 0, .6), rgb(0, 0, 0, .2)), url(../Requirements-and-Resources/image/computer-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header ul {
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    color: white;
+    text-shadow: -1px 3px 7px rgba(0, 0, 0, 0.69);
+    list-style: none;
+}
+
+nav li:first-child {
+    float: left;
+}
+
+nav li:nth-child(2) {
+    float: right;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1, .header-content p {
+    color: white;
+    text-shadow: -1px 3px 7px rgba(0, 0, 0, 0.69);
+}
+
+.header-content h1 {
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.header-content p {
+    font-size: 20px;
+}
+
+.header-content button {
+    background-color: #00D08E;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.header-content button:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    background: transparent;
+}
+
+.header-content a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    text-shadow: -1px 3px 7px rgba(0, 0, 0, 0.69);
+}
+
+.header-content a i {
+    padding-left: 7px;
+}
+
+.benefits article, .about article {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+}
+
+.benefits-image img, .about .image-wrapper img {
+    width: 100%;
+}
+
+.benefits-content {
+    padding: 30px;
+    vertical-align: top;
+    padding-left: 50px;
+}
+
+.title {
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.benefits-content p {
+    margin-top: 0;
+    width: 70%;
+}
+
+.benefits-content ul {
+    margin-top: 40px;
+    padding-left: 0;
+}
+
+.benefits-content ul, .benefits-content p {
+    font-size: 17px;
+}
+
+.benefits-content ul li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.benefits-content ul li i {
+    color: #00D08E;
+    padding-right: 15px;
+}
+
+.about {
+    position: relative;
+    top: -5px;
+    left: -4px;
+}
+
+.about-content {
+    position: relative;
+    bottom: 80px;
+    left: -17px;
+    text-align: center;
+}
+
+.about-content h3 {
+    margin: 50px;
+}
+
+.about-content ul li {
+    display: inline-block;
+    width: 30%;
+}
+
+.about-content ul li h5 {
+    color: #00D08E;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.about-content ul li img {
+    width: 100%;
+    max-width: 70px;
+}
+
+.image-wrapper img {
+    width: 722px !important;
+}
+
+.question {
+    margin-top: -61px;
+    text-align: center;
+    background: #B2F1DD;
+    padding: 50px;
+}
+
+.question article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 20px;
+}
+
+.content h4 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.content p {
+    margin-top: 0;
+    padding: 0 55px;
+}
