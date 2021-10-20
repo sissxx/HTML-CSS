@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300&display=swap');
+html {
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+section {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.price-box, .price-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 0px 7px #888888;
+    margin: 0 20px;
+}
+
+.price-box {
+    background-color: #E3F3FD;
+    padding: 15px 30px;
+}
+
+.price-box-title, .price-content header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price-box-list {
+    list-style: none;
+    color: #78797a;
+    padding-left: 0;
+}
+
+.price-box-list li {
+    padding: 3px;
+}
+
+.price-box ul i {
+    color: #56B1F9;
+    padding-right: 10px;
+}
+
+.price-content {
+    border: 5px solid #44A9F8;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+.price-content header h1, .price-content header span {
+    display: inline-block;
+    color: #78797a;
+}
+
+.price-content header h1 {
+    font-size: 38px;
+    color: #44A9F8;
+    margin-bottom: 0;
+}
+
+p {
+    color: #78797a;
+    font-weight: 600;
+}
+
+button {
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    background-color: #44A9F8;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

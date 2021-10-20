@@ -1,0 +1,185 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+body {
+    margin: 0;
+    background: #F0E4E4;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    background: #F93700;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+header input {
+    padding: 5px 100px 5px 0;
+    align-self: center;
+    border: 1px solid #B6AFAF
+}
+
+.fa-search {
+    position: relative;
+    right: 161px;
+    background: #B6AFAF;
+    padding: 6px;
+    margin: 28px;
+    font-size: 12px;
+    color: white;
+}
+
+header p {
+    display: flex;
+    align-self: center;
+    margin-right: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+header p i {
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+main {
+    margin: 50px 60px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gallery article {
+    display: flex;
+    margin: 15px;
+}
+
+.gallery article img {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    height: 30vh;
+}
+
+.collection {
+    margin: 50px;
+    display: flex;
+}
+
+.collection-content {
+    width: 60%;
+}
+
+.collection-content h2 {
+    color: #F93700;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.collection-content p {
+    color: #808080;
+}
+
+.collection-content button {
+    padding: 14px 15px;
+    color: white;
+    background: #F93700;
+    ;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.collection-image img {
+    display: flex;
+    width: 100%;
+}
+
+.service {
+    background: #B7B1B1;
+    display: flex;
+    padding: 0 100px;
+}
+
+.service ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.service li {
+    width: 100%;
+}
+
+.service ul li img {
+    border-radius: 50%;
+    padding: 20px;
+    background: #F0E4E4;
+    width: 30%;
+}
+
+ul li h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+ul li p {
+    color: #808080;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+footer {
+    color: #808080;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 10px;
+    position: relative;
+    top: -44px;
+}
+
+footer article {
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    font-size: 15px;
+}
+
+footer ul li button {
+    padding: 8px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer ul li i {
+    font-size: 22px;
+}
+
+button:hover, i:hover {
+    cursor: pointer;
+}

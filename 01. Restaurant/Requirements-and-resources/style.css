@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9DAB5;
+    
+}
+
+main{
+    padding: 50px 0;
+    display: inline-block;
+
+}
+.image-wrapper,
+.form-booking{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 45%;
+
+}
+.image-wrapper img{
+    
+    width: 78%;
+    margin-left: 136px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.form-booking{
+    padding-bottom: 179.5px !important;
+background-color: black;
+color: white;
+width: 50%;
+text-align: center;
+border-top-right-radius: 13px;
+border-bottom-right-radius: 13px;
+}
+.form-booking label{
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+}
+.form-booking input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
+    color: white;
+}
+.form-booking input:focus,
+.form-booking input:active{
+    outline:none;
+}
+.form-booking input::placeholder{
+    color: white;
+}
+input[type="submit"]{
+    background-color: #E5B885;
+    border:none;
+    border-radius: 4px;
+    padding: 12px;
+    width: fit-content;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
