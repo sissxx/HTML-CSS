@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+body {
+    background: #F5F5F5;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+}
+
+.home-design {
+    text-align: center;
+}
+
+.home-design h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.home-design h3 {
+    margin-top: 0;
+    color: #CB2033;
+    position: relative;
+    left: 8%;
+    font-size: 26px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.article-content {
+    width: 25%;
+    background: white;
+    border-radius: 15px;
+}
+
+.article-content img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.article-content h4 {
+    font-size: 25px;
+    margin: 6px 10px auto 10px;
+    border-bottom: 1px solid #CB2033;
+    padding-bottom: 8px;
+}
+
+.article-content p {
+    padding: 0 17px;
+    margin-bottom: 35px;
+}
+
+.article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.article-content i {
+    margin-left: 15px;
+    color: #CB2033;
+}

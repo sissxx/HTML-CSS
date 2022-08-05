@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: auto 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.image-wrapper {
+    width: 120px;
+}
+
+header img {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: #53536B;
+}
+
+.taxes {
+    background: #54546D;
+    height: 200px;
+    padding: 60px;
+}
+
+.taxes h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.taxes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.desing-basics, .fundamentals, .professional {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.desing-basics button {
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    background: #9A5DC6;
+    border: none;
+    padding: 12px 30px;
+    font-size: 13px;
+    box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.2);
+    margin: 35px;
+    font-weight: 700;
+}
+
+.content-text {
+    background: linear-gradient(152deg, rgba(3, 152, 60, 1) 31%, rgba(70, 210, 123, 1) 85%);
+    padding: 2px;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.main-content h2, .main-content p {
+    color: #54546D;
+}
+
+.design-text {
+    font-size: 17px;
+}
+
+.title {
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+.fundamentals .main-content, .professional .main-content {
+    padding: 0 30px;
+}
+
+.fundamentals .content-text, .professional .content-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fundamentals .content-text {
+    background: linear-gradient(100deg, rgba(77, 109, 138, 1) 33%, rgba(96, 150, 200, 1) 72%);
+}
+
+.professional .content-text {
+    background: linear-gradient(158deg, rgba(77, 58, 168, 1) 30%, rgba(137, 121, 222, 1) 69%);
+}
+
+.taxes::before {
+    content: url(images/calculator-icon.svg);
+    position: absolute;
+    left: -6%;
+    top: 11%;
+}
